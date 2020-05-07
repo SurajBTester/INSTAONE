@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" verbose="1" parallel="classes" thread-count="2">
+  <test name="testnamehh">
+  <classes>
+   <class name="com.instaone.testcases.Master_Mod_Del"></class>
+  
+    <class name="com.instaone.testcases.SmokeTesting"></class>
+    
+ <!--  <class name="INSTAONE.INSTA.Class3"></class>
+ <class name="INSTAONE.INSTA.Class4"></class>
+  <class name="INSTAONE.INSTA.Class5"></class> -->
+  
+<!--   <class name="INSTAONE.INSTA.User"></class> 
+  <class name="INSTAONE.INSTA.AssignRights"></class> -->
+  
+  
+  </classes>
+  </test>
+ 
+</suite>

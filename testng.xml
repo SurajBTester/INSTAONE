@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" >
+  <test name="testname">
+  <classes>
+   <class name="com.instaone.testcases.SmokeTesting"></class>
+  
+
+  
+  
+  </classes>
+  </test>
+ 
+</suite>
